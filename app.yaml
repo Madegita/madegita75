@@ -1,0 +1,7 @@
+application: contohhelloworld
+version: 1
+runtime: php
+api_version: 1
+handlers:
+– url: /.*
+  script: contohhelloworld.php
